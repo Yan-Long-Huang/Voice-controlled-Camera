@@ -7,4 +7,4 @@
 * [VoiceCamera](https://github.com/Yan-Long-Huang/Voice-controlled-Camera/tree/main/VoiceCamera)：Camera API完整程式  
 * [drawer_test](https://github.com/Yan-Long-Huang/Voice-controlled-Camera/tree/main/drawer_test)：以Dart製作UI的Drawer  
 * [Flutter Note](https://www.notion.so/Flutter-fc99d869500e4c5589c3002b415dd0b3)：Flutter筆記  
-* [智慧型行動裝置軟體設計期末報告.docx](https://niuo365-my.sharepoint.com/:w:/g/personal/b0742017_365_niu_edu_tw/EQZCuFNbKEpPlwsec1oqU_oBv2MEqpvzLHxfiiKqx_j5mg?e=gcnXGd)：書面報告
+* [智慧型行動裝置軟體設計期末報告](https://niuo365-my.sharepoint.com/:b:/g/personal/b0742017_365_niu_edu_tw/EbZCYBarY89JnsDmasKPGFsBrbU6SxkYqhwQ4UT-xFN-HQ?e=g1mN18)：書面報告
