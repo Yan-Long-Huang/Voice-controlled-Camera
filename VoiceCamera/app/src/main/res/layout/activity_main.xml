@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/cp_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cp_surface"
+        android:layout_alignTop="@+id/cp_surface"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/microphone"
+        android:layout_alignStart="@+id/cp_surface"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_switch_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cp_surface"
+        android:layout_alignRight="@+id/cp_surface"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/change"
+        android:layout_alignEnd="@+id/cp_surface"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_shutter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cp_surface"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/aperture"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cp_surface"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/iv_switch_camera"
+        android:layout_toEndOf="@+id/iv_voice"
+        app:srcCompat="@drawable/thunderbolt"
+        android:layout_toLeftOf="@+id/iv_switch_camera"
+        android:layout_toRightOf="@+id/iv_voice"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cp_surface"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/iv_switch_camera"
+        android:layout_toEndOf="@+id/iv_voice"
+        app:srcCompat="@drawable/cancel"
+        android:layout_toLeftOf="@+id/iv_switch_camera"
+        android:layout_toRightOf="@+id/iv_voice"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cp_surface"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/album"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="94dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>
